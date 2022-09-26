@@ -45,6 +45,9 @@ class Librarian(Person):
   def un_block_member(self, member):
     None
 
+  def set_high_demand(self, member):
+    pass
+
 
 
 class Member(Person):
@@ -75,4 +78,6 @@ class Book(ABC):
     self.__number_of_pages = number_of_pages
     self.__authors = []
     self.__quantity = quantity
+
+
 
